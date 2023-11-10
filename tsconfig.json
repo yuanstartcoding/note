@@ -1,0 +1,18 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@src*": ["./*"],
+      "@components": ["components"],
+      "@navigation": ["navigation"],
+      "@redux": ["redux"],
+      "@screens": ["screens"],
+      "@components/*": ["components/*"],
+      "@navigation/*": ["navigation/*"],
+      "@redux/*": ["redux/*"],
+      "@screens/*": ["screens/*"],
+    },
+    "skipLibCheck": true
+  }
+}
